@@ -1,8 +1,6 @@
 body {
-  background: brown;
   background-image: url(br.jpg);
 }
-
 #side {
   margin-top: 50px;
   z-index: 1;
@@ -69,6 +67,7 @@ td.sh #hd{
 #dd {
   background: red;
 }
+ 
 
 .wt {
   margin-top: 50px;
