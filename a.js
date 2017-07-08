@@ -1,9 +1,4 @@
 
-
-
-var name = prompt("name");
-alert(name);
-
 var eda=document.getElementById("ed");
 var tda=eda.querySelectorAll("td");
 var ip=document.getElementById("hd");
