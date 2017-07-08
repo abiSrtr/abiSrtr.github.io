@@ -166,16 +166,17 @@
 
         </div>
 </div>
-<script type="text/javascript" src="a.js">
-  $(document).ready(function () {
+
+<script>
+        $("#tog").click( function (e){
+            e.preventDefault();
+            $("#wrapper").toggleClass("menu");
+        });
+    </script>
 
 
-            $("#tog").click( function (e){
-                e.preventDefault();
-                $("#wrapper").toggleClass("menu");
-            });
-  })
-</script>
+    <script type="text/javascript" src="a.js">
+    </script>
 </body>
 
 </html>
