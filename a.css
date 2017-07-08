@@ -1,0 +1,111 @@
+body {
+  background: brown;
+  background-image: url(br.jpg);
+}
+
+#side {
+  margin-top: 50px;
+  z-index: 1;
+  position: fixed;
+  width: 0;
+  height: 100%;
+  overflow-y: hidden;
+  background: #141212;
+
+}
+
+.special{
+  background:red;
+}
+
+#hd{
+  display: none;
+}
+
+td.sh #hd{
+  display: block;
+}
+
+
+#side ul {
+  background: #141212;
+  padding:0px;
+  list-style: none;
+}
+
+#side li {
+  text-align: center;
+  padding: 10px 0px
+}
+
+#side a {
+  color: white;
+  text-decoration: none;
+
+}
+#side li:hover{
+  background:#555 ;
+  border-radius: 3px;
+}
+
+#page {
+  width: 100%;
+  position: absolute;
+  padding: 15px;
+}
+
+#wrapper.menu #side {
+  width: 150px;
+}
+
+#wrapper.menu #page {
+  padding-left: 155px;
+}
+
+#tog {
+  color: red;
+}
+
+#dd {
+  background: red;
+}
+
+.wt {
+  margin-top: 50px;
+}
+
+.container {
+  padding: 0px 14px 10px 15px;
+}
+
+.container pre {
+  background: black;
+  color: lightgreen;
+  padding: 10px 0px;
+  margin: 10px;
+}
+
+.container dt {
+  color: darkblue;
+}
+
+.table {
+  background: white;
+}
+
+.dis {
+  display: none;
+}
+
+.stat:hover+.dis {
+  display: block;
+}
+
+#f {
+  color: white;
+  background: #999;
+}
+
+#h {
+  color: #205;
+}
